@@ -1,0 +1,36 @@
+# Firmware Development
+
+This folder contains the embedded firmware developed for the CAN-Based Network Traffic Management System.
+
+## Development Platform
+- TI C2000 Microcontroller
+- Embedded C
+- Code Composer Studio (CCS)
+
+## Firmware Modules
+
+### 1. CAN Communication
+- CAN message transmission and reception
+- CAN frame identification
+- Message ID and data handling
+
+### 2. Traffic Monitoring
+- Real-time CAN bus monitoring
+- Bus utilization calculation
+- Message arrival frequency monitoring
+- Queue length and waiting time analysis
+
+### 3. Adaptive Scheduling
+- Message priority evaluation
+- Deadline monitoring
+- Congestion-aware scheduling
+- Adaptive transmission management
+
+### 4. Communication Verification
+- Transmission completion monitoring
+- Independent CAN reception verification
+- Message ID and data comparison
+- PASS/FAIL validation
+
+## Programming Language
+Embedded C

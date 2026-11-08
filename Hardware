@@ -1,0 +1,26 @@
+# Hardware Design
+
+This folder contains the hardware design files of the CAN-Based Network Traffic Management System.
+
+## Hardware Components
+
+- TI C2000 Microcontroller (External LaunchPad)
+- MCP2515 CAN Controller
+- MCP2562FD CAN Transceiver
+- CAN Bus Interface
+- Crystal Oscillator Circuit
+- Power Supply Circuit
+- CAN Termination Circuit
+- Status Indicators
+
+## Design Files
+
+- Circuit Schematic
+- PCB Layout
+- Bill of Materials (BOM)
+- Component Datasheets
+- PCB Fabrication Files (Gerber)
+
+## Design Tool
+
+KiCad – Electronic Design Automation (EDA)

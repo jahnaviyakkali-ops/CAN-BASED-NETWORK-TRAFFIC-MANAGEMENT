@@ -1,0 +1,41 @@
+# Testing and Verification
+
+This folder contains the test procedures and verification results for the CAN-Based Network Traffic Management System.
+
+## Testing Modules
+
+### 1. CAN Communication Testing
+- CAN message transmission.
+- CAN message reception.
+- Message ID and data validation.
+
+### 2. Real-Time Traffic Monitoring
+- CAN bus utilization measurement.
+- Message arrival frequency analysis.
+- Queue length and waiting time monitoring.
+
+### 3. Congestion Detection
+- High bus-load condition testing.
+- Traffic congestion identification.
+- Adaptive scheduling response.
+
+### 4. Deadline Monitoring
+- Message deadline tracking.
+- Deadline violation detection.
+- Time-critical message prioritization.
+
+### 5. Independent Communication Verification
+
+A three-stage verification approach is planned:
+
+1. C2000 records the scheduler-selected message ID and data.
+2. MCP2515 confirms transmission completion.
+3. An independent CAN-B monitoring node checks the received message ID and data.
+
+The transmitted and received messages are compared to determine the communication status.
+
+## Test Results
+
+Test observations, screenshots, hardware validation photographs and PASS/FAIL results will be documented here as testing progresses.
+
+**Project Status:** Testing and hardware validation in progress.
